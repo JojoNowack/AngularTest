@@ -30,4 +30,4 @@ jobs:
         ####
         npm run ng build --base-href="https://jojonowack.github.io/AngularTest/"
 
-        npx angular-cli-ghpages --dir=dist/cicd-test-project
+        npx angular-cli-ghpages --dir=dist/cicd-test-project --no-silent
